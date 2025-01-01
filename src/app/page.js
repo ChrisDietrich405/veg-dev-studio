@@ -13,7 +13,7 @@ function Home() {
 				flexDirection: "column",
 				p: 4,
 				mt: 4,
-				backgroundColor: "#fafafa",
+				backgroundColor: "#f5f5f5",
 				minHeight: "100vh",
 			}}
 		>

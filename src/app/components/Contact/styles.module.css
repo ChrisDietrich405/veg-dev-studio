@@ -1,0 +1,22 @@
+.text_field {
+	background: #fff;
+	color: #fff;
+	margin: 15px 0;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	border: #fff;
+}
+
+.text_field_label {
+	transform: translate(0, -25.5px) scale(1); /* Customize position */
+	color: #000;
+}
+
+.button {
+	background-color: #4a7f17;
+}
+
+.button:hover {
+	background-color: #000;
+}

@@ -34,7 +34,10 @@ function DrawerAppBar(props) {
 	};
 
 	const drawer = (
-		<Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+		<Box
+			onClick={handleDrawerToggle}
+			sx={{ textAlign: "center", backgroundColor: "#000000" }}
+		>
 			<Image
 				aria-hidden
 				src="/globe.svg"
@@ -63,7 +66,7 @@ function DrawerAppBar(props) {
 		window !== undefined ? () => window().document.body : undefined;
 
 	return (
-		<Box sx={{ display: "flex" }}>
+		<Box sx={{ display: "flex", backgroundColor: "#000000" }}>
 			<CssBaseline />
 			<AppBar component="nav">
 				<Toolbar sx={{ justifyContent: "space-between" }}>
@@ -76,7 +79,11 @@ function DrawerAppBar(props) {
 							height={32}
 						/>
 					</Box>
-					<Box sx={{ display: { xs: "none", sm: "block" } }}>
+					<Box
+						sx={{
+							display: { xs: "none", sm: "block" },
+						}}
+					>
 						{navItems.map(({ name, path }) => (
 							<Link key={name} href={path} passHref>
 								{" "}
@@ -87,7 +94,7 @@ function DrawerAppBar(props) {
 					</Box>
 				</Toolbar>
 			</AppBar>
-			<nav>
+			<nav style={{ backgroundColor: "#000000" }}>
 				<Drawer
 					container={container}
 					variant="temporary"
