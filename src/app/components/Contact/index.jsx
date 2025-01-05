@@ -53,6 +53,7 @@ const ContactForm = () => {
 			sx={{
 				marginTop: "150px",
 				marginBottom: "30px",
+				padding: "20px",
 				backgroundColor: "#f5f5f5",
 			}}
 		>

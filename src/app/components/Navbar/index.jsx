@@ -68,7 +68,7 @@ function DrawerAppBar(props) {
 	return (
 		<Box sx={{ display: "flex", backgroundColor: "#000000" }}>
 			<CssBaseline />
-			<AppBar component="nav">
+			<AppBar sx={{ backgroundColor: "#000000" }} component="nav">
 				<Toolbar sx={{ justifyContent: "space-between" }}>
 					<Box sx={{ display: "flex", alignItems: "center" }}>
 						<Image

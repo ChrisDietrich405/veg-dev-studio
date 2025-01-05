@@ -48,7 +48,10 @@ const Pricing = () => {
 	};
 
 	return (
-		<Container maxWidth="lg" sx={{ marginTop: 20, backgroundColor: "#f5f5f5" }}>
+		<Container
+			maxWidth="lg"
+			sx={{ marginTop: 20, padding: 10, backgroundColor: "#f5f5f5" }}
+		>
 			<Grid container spacing={4} justifyContent="center">
 				{/* Template Option Card */}
 				{[templateOption, customOption, customOption2].map((option, index) => (
